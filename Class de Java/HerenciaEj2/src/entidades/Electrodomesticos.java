@@ -61,6 +61,6 @@ public abstract class Electrodomesticos {
     
     public abstract void crearElectrodomestico();
     
-    public abstract void precioFinal();
+    public abstract double precioFinal();
     
 }

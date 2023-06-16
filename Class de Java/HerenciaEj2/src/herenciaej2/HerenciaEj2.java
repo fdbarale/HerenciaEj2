@@ -4,6 +4,8 @@
  */
 package herenciaej2;
 
+import servicios.ServicioLavadora;
+
 /**
  *
  * @author Oficina
@@ -14,7 +16,9 @@ public class HerenciaEj2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       ServicioLavadora lavadora = new ServicioLavadora();
+       lavadora.crearLavadora();
+       lavadora.precioFinal();
     }
     
 }
