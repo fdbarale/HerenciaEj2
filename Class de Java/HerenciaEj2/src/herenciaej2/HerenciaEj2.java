@@ -5,6 +5,7 @@
 package herenciaej2;
 
 import servicios.ServicioLavadora;
+import servicios.ServicioTelevisor;
 
 /**
  *
@@ -16,9 +17,14 @@ public class HerenciaEj2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       ServicioLavadora lavadora = new ServicioLavadora();
+        System.out.println("Va comprar una lavadora: ");
+        ServicioLavadora lavadora = new ServicioLavadora();
        lavadora.crearLavadora();
        lavadora.precioFinal();
+        System.out.println("Va comprar un televisor: ");
+       ServicioTelevisor televisor = new ServicioTelevisor();
+       televisor.crearTelevisor();
+       televisor.precioFinal();
     }
     
 }
